@@ -1,0 +1,15 @@
+{
+  "name": "benchmark-rescript-cache-impl",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "rescript build"
+  },
+  "dependencies": {
+    "@rescript/core": "^0.3.1",
+    "rescript": "^10.1.4",
+    "rescript-tinybench": "^1.2.1"
+  },
+  "packageManager": "yarn@3.5.1"
+}

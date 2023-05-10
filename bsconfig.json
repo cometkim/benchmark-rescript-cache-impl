@@ -1,0 +1,19 @@
+{
+  "name": "benchmark-rescript-cache-impl",
+  "suffix": ".bs.mjs",
+  "sources": [
+    {
+      "dir": "src"
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "bs-dependencies": [
+    "@rescript/core",
+    "rescript-tinybench"
+  ]
+}
