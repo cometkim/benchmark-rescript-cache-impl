@@ -1,5 +1,3 @@
-let make = (~hintSize) => Belt.HashMap.make(~id=module(Key.KeyHash), ~hintSize)
-
 let get = (t, key) => {
   t->Belt.HashMap.get(key)
 }

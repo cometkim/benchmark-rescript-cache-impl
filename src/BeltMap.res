@@ -1,4 +1,4 @@
-let make = () => Belt.Map.make(~id=module(Key.KeyCmp))
+let make = () => Belt.Map.make(~id=module(Key.ObjectCmp))
 
 let get = (t, key) => {
   t->Belt.Map.get(key)
